@@ -1,0 +1,10 @@
+name = "studymate-ai"
+main = "index.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+# For production, replace * with your exact GitHub Pages origin, for example:
+# ALLOWED_ORIGINS = "https://yourusername.github.io"
+ALLOWED_ORIGINS = "*"
+# Optional: change the model if your AI Studio account supports another model.
+GEMINI_MODEL = "gemini-2.5-flash"
